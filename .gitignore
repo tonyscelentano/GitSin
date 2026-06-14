@@ -13,6 +13,11 @@ report.html
 !package.json
 !package-lock.json
 
+# AI Assistant Context
+GEMINI.md
+AGENTS.md
+.agents/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
