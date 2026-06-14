@@ -1,0 +1,8 @@
+- id: gitsin-scan
+  name: GitSin Code Reckoning
+  description: Deterministic security scanning and blame attribution.
+  entry: gitsin scan . --output console
+  language: python
+  types: [text]
+  pass_filenames: false
+  always_run: true
