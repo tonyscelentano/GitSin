@@ -12,14 +12,14 @@ import json
 # Simulated per-violation regulatory penalty for executive exposure theater.
 _SUITS_MODE_PENALTY_PER_VIOLATION_USD = 250_000
 
-from gitsin.scanner import GitleaksOrchestrator
-from gitsin.blame import BlameEngine
-from gitsin.compliance import ComplianceEngine
-from gitsin.telemetry import TelemetryEngine
-from gitsin.threats import ThreatScanner
-from gitsin.exporter import ExportManager
-from gitsin.models import RiskLedger
-from gitsin import osv_adapter
+from .scanner import GitleaksOrchestrator
+from .blame import BlameEngine
+from .compliance import ComplianceEngine
+from .telemetry import TelemetryEngine
+from .threats import ThreatScanner
+from .exporter import ExportManager
+from .models import RiskLedger
+from . import osv_adapter
 
 app = typer.Typer(help="GitSin Auditor - Automated compliance and accountability tool.")
 console = Console()

@@ -1,7 +1,7 @@
 import json
 from importlib.metadata import version as pkg_version, PackageNotFoundError
-from gitsin.models import RiskLedger
-from gitsin import html_report
+from .models import RiskLedger
+from . import html_report
 
 
 def _get_version() -> str:

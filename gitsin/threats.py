@@ -15,7 +15,7 @@ import re
 from pathlib import Path, PurePosixPath
 from typing import List, Optional
 
-from gitsin.models import ThreatIndicator
+from .models import ThreatIndicator
 
 # ---------------------------------------------------------------------------
 # Rule loading — happens once at import time, from the bundled JSON

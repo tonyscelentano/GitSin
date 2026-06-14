@@ -17,7 +17,7 @@ SECURITY — XSS Prevention (defense-in-depth):
      and restricts resource loading to inline-only.
 """
 
-from gitsin.models import RiskLedger
+from .models import RiskLedger
 
 
 def render(ledger: RiskLedger) -> str:

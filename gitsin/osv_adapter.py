@@ -23,7 +23,7 @@ from datetime import datetime, timezone
 from pathlib import Path, PurePosixPath
 from typing import List, Optional
 
-from gitsin.models import ThreatIndicator
+from .models import ThreatIndicator
 
 # ---------------------------------------------------------------------------
 # Constants

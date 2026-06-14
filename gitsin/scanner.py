@@ -4,7 +4,7 @@ import shutil
 import tempfile
 from pathlib import Path
 from typing import List
-from gitsin.models import SinEvent
+from .models import SinEvent
 
 # Subprocess timeout for gitleaks scan (seconds).
 # Large repos may take time; 120s is generous for local scans.

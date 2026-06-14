@@ -1,5 +1,5 @@
 from typing import List
-from gitsin.models import BlameRecord, ThreatIndicator
+from .models import BlameRecord, ThreatIndicator
 
 # Static mapping for offline-first determinism
 FRAMEWORK_MAPPINGS = {

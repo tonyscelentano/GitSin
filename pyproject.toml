@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "gitsin"
-version = "0.1.0"
+version = "0.1.1"
 description = "GitSin Auditor - Deterministic Security Scanning"
 requires-python = ">=3.11"
 dependencies = [
@@ -20,6 +20,12 @@ dev = [
 
 [project.scripts]
 gitsin = "gitsin.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["gitsin"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"gitsin/threat_rules.json" = "gitsin/threat_rules.json"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

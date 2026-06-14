@@ -1,7 +1,7 @@
 import subprocess
 from pathlib import Path
 from datetime import datetime, timezone
-from gitsin.models import BlameRecord, CommitActor, SinEvent
+from .models import BlameRecord, CommitActor, SinEvent
 
 class BlameEngine:
     def __init__(self, target_path: str):
