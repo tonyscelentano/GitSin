@@ -12,6 +12,7 @@ report.html
 *.json
 !package.json
 !package-lock.json
+!gitsin/threat_rules.json
 
 # AI Assistant Context
 GEMINI.md

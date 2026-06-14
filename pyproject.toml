@@ -24,9 +24,6 @@ gitsin = "gitsin.cli:app"
 [tool.hatch.build.targets.wheel]
 packages = ["gitsin"]
 
-[tool.hatch.build.targets.wheel.force-include]
-"gitsin/threat_rules.json" = "gitsin/threat_rules.json"
-
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["."]
