@@ -41,13 +41,8 @@ Engineers adopt tools because they are fast, deterministic, and easily integrate
 GitSin is built in Python and managed via `uv` for lightning-fast dependency resolution.
 
 ```bash
-# Clone the accountability engine
-git clone https://github.com/your-org/gitsin.git
-cd gitsin
+pip install git+https://github.com/tonyscelentano/GitSin.git
 
-# Install the dependencies
-uv venv
-uv pip install -e .
 ```
 
 ### Usage
